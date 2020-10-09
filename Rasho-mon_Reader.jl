@@ -9,7 +9,7 @@ rx=r"<rb>(.+?)</rb><rp>（</rp><rt>(.+?)</rt>"
 # 抽出したものをプリント
 for i∈eachmatch(rx,txt) println(i[1],"：",i[2]) end
 
-結果
+#結果
 #=
 或日：あるひ
 羅生門：らしやうもん
